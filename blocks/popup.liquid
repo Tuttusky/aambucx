@@ -1,6 +1,168 @@
-{% schema %}
-  {
-    "name": "Block name",
-    "settings": []
+<style>
+  /* Popup overlay */
+  #gender-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
   }
+  /* Popup container */
+  #gender-popup {
+    background: white;
+    border-radius: 12px;
+    max-width: 320px;
+    width: 90%;
+    padding: 24px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  }
+  #gender-popup h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  #gender-popup p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  #gender-popup .btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  #gender-popup button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    min-width: 100px;
+  }
+  #gender-popup button#btn-men {
+    background-color: #007bff;
+    color: white;
+  }
+  #gender-popup button#btn-men:hover {
+    background-color: #0056b3;
+  }
+  #gender-popup button#btn-women {
+    background-color: #e83e8c;
+    color: white;
+  }
+  #gender-popup button#btn-women:hover {
+    background-color: #b2255f;
+  }
+  /* Responsive: ensure popup fits well on small mobile screens */
+  @media (max-width: 400px) {
+    #gender-popup {
+      padding: 20px 16px;
+    }
+    #gender-popup h2 {
+      font-size: 1.3rem;
+    }
+    #gender-popup button {
+      min-width: 80px;
+      font-size: 0.9rem;
+      padding: 0.6rem 1rem;
+    }
+  }
+</style>
+
+<div id="gender-popup-overlay" role="dialog" aria-modal="true" aria-labelledby="gender-popup-title">
+  <div id="gender-popup">
+    <h2 id="gender-popup-title">{{ section.settings.popup_title }}</h2>
+    <p>{{ section.settings.popup_question }}</p>
+    <div class="btn-group">
+      <button id="btn-men" type="button" aria-label="Shopping for Men">{{ section.settings.btn_men_text }}</button>
+      <button id="btn-women" type="button" aria-label="Shopping for Women">{{ section.settings.btn_women_text }}</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function() {
+    var genderKey = 'shop_gender_selection';
+    var selection = localStorage.getItem(genderKey);
+    var overlay = document.getElementById('gender-popup-overlay');
+    var btnMen = document.getElementById('btn-men');
+    var btnWomen = document.getElementById('btn-women');
+
+    function hidePopup() {
+      overlay.style.display = 'none';
+    }
+    function showPopup() {
+      overlay.style.display = 'flex';
+    }
+    function storeSelection(value) {
+      localStorage.setItem(genderKey, value);
+      hidePopup();
+      var event = new CustomEvent('genderSelectionMade', { detail: value });
+      window.dispatchEvent(event);
+    }
+
+    if (!selection) {
+      showPopup();
+    }
+
+    btnMen.addEventListener('click', function() {
+      storeSelection('men');
+    });
+    btnWomen.addEventListener('click', function() {
+      storeSelection('women');
+    });
+
+    overlay.addEventListener('click', function(e) {
+      if (e.target === overlay) {
+        // optional: do nothing or hide popup on outside click
+      }
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Gender Selection Popup",
+  "settings": [
+    {
+      "type": "text",
+      "id": "popup_title",
+      "label": "Popup Title",
+      "default": "Welcome!"
+    },
+    {
+      "type": "text",
+      "id": "popup_question",
+      "label": "Popup Question",
+      "default": "Are you shopping for Men or Women?"
+    },
+    {
+      "type": "text",
+      "id": "btn_men_text",
+      "label": "Button Text for Men",
+      "default": "Men"
+    },
+    {
+      "type": "text",
+      "id": "btn_women_text",
+      "label": "Button Text for Women",
+      "default": "Women"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Gender Selection Popup"
+    }
+  ]
+}
 {% endschema %}
