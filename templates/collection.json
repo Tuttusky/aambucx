@@ -134,7 +134,8 @@
         "8fe431f8-91f7-4b21-a605-4b55df7293e1": {
           "type": "image_banner",
           "settings": {
-            "url": "shopify://products/colorful-wind-coats",
+            "image": "shopify://shop_images/The_much-loved_gamcha_sarees_that_must-have_indigo_kurta_our_ready-to-stitch_fabric_delights_and_the_ever_favorite_block-prints_Yes_Our_BESTSELLERS_are_at_up_to_50_OFF__The_Unforgetta.jpg",
+            "url": "shopify://collections/saree",
             "open_link": false
           }
         }
