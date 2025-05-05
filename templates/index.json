@@ -31,7 +31,7 @@
             "content_width": 50,
             "content_background_color": "#f3876c79",
             "content_opacity": 100,
-            "horizontal_position": "left_position",
+            "horizontal_position": "center_position",
             "vertical_position": "middle_position",
             "slider_effect": "effect_fadeinleft",
             "text_alignment": "center",
