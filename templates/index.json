@@ -25,11 +25,11 @@
           "type": "slider_item",
           "settings": {
             "image": "shopify://shop_images/banner.jpg",
-            "image_mobile": "shopify://shop_images/WhatsApp_Image_2025-05-05_at_11.22.06_3d821d9e_ec2c96df-507d-434a-bae2-67e51157607d.jpg",
+            "image_mobile": "shopify://shop_images/WhatsApp_Image_2025-05-05_at_11.22.06_f8096fd6.jpg",
             "content_box": "content_in_container",
             "content_custom_width": true,
             "content_width": 50,
-            "content_background_color": "#f3876c79",
+            "content_background_color": "#f3876c78",
             "content_opacity": 100,
             "horizontal_position": "center_position",
             "vertical_position": "middle_position",
