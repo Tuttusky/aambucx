@@ -158,7 +158,7 @@
           "type": "collection_item",
           "settings": {
             "title_collection": "Saree",
-            "collection": "sportswear",
+            "collection": "saree",
             "image": "shopify://shop_images/WhatsApp_Image_2025-05-05_at_11.22.06_0835a4cb.jpg"
           }
         },
@@ -166,7 +166,7 @@
           "type": "collection_item",
           "settings": {
             "title_collection": "Saree",
-            "collection": "handbag",
+            "collection": "saree",
             "image": "shopify://shop_images/WhatsApp_Image_2025-05-05_at_11.22.06_faec499d.jpg"
           }
         }
@@ -237,7 +237,7 @@
             "image": "shopify://shop_images/Pure_handloom_Double_warp_soft_silk_saree_Fancy_b460e51b-8c28-434c-aa44-e5a7c2b4fe52.jpg",
             "image_mobile": "shopify://shop_images/Pure_handloom_Double_warp_soft_silk_saree_Fancy_b460e51b-8c28-434c-aa44-e5a7c2b4fe52.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "link": "shopify://collections/shop",
+            "link": "shopify://collections/saree",
             "open_link": "_blank",
             "subtext": "ONLINE EXCLUSIVE",
             "title": "Combo Saree's",
