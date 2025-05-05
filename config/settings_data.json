@@ -9,9 +9,7 @@
  */
 {
   "current": {
-    "favicon": "shopify://shop_images/Favicon_971b4ca4-74dd-4ba9-b347-20c2dae81f9d.png",
-    "logo_image_desktop": "shopify://shop_images/lgh_f6.png",
-    "logo_transparent_image": "shopify://shop_images/Logo_0883908e-c667-42db-a16d-ff8299d0da8e.png",
+    "favicon": "shopify://shop_images/Artboard_5_copy_5_150x_b82b9a98-5b5a-42eb-b319-d74c9830811a.png",
     "logo_width_desktop": 90,
     "logo_width_mobile": 90,
     "first_notification": "👉 Come back!",
@@ -712,8 +710,8 @@
           "text_h4wKyt"
         ],
         "settings": {
-          "colorBackground": "#fb2c2c",
-          "colorText": "#000000",
+          "colorBackground": "#ca0000",
+          "colorText": "#ffffff",
           "link": "",
           "marquee_height": 36,
           "font_size": 16
