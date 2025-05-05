@@ -126,8 +126,8 @@
           "type": "popular_product",
           "settings": {
             "title": "Featured Product",
-            "collection": "sweaters",
-            "type_product": "list",
+            "collection": "women",
+            "type_product": "grid",
             "maximum": 3
           }
         },
