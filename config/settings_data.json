@@ -126,10 +126,10 @@
     "disable_mobile": true,
     "show_promotion_select": "show_promotion_homepage",
     "show_promotion_mobile": false,
-    "promotion_code": "SEELA30",
+    "promotion_code": "AAMBUCX10",
     "promotion_width": 500,
-    "promotion_banner": "shopify://shop_images/zas.png",
-    "promotion_title": "Seela Designs",
+    "promotion_banner": "shopify://shop_images/e8a80cf9-ab64-4aef-a4f3-479febc6cde0.jpg",
+    "promotion_title": "AAMBUCX",
     "promotion_sub_title": "<p>Special Offer</p>",
     "promotion_content": "Up to <span>10% Off</span>\nwhen using code \"[promotion_code]\"",
     "show_before": false,
@@ -712,8 +712,8 @@
           "text_h4wKyt"
         ],
         "settings": {
-          "colorBackground": "#44d3e2",
-          "colorText": "#ffffff",
+          "colorBackground": "#e50606",
+          "colorText": "#000000",
           "link": "",
           "marquee_height": 36,
           "font_size": 16
