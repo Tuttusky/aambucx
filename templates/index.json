@@ -199,7 +199,7 @@
       "settings": {
         "heading_logo_svg": "",
         "heading": "Trending this Week",
-        "description": "<p>Here’s some of our most popular products people are in love with.</p>",
+        "description": "",
         "text_alignment": "text-center",
         "container": "container-fluid",
         "color_scheme": "",
