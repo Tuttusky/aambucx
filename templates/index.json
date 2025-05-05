@@ -234,11 +234,13 @@
           "settings": {
             "banner_width": "4",
             "banner_type": "image",
+            "image": "shopify://shop_images/WhatsApp_Image_2025-05-05_at_11.22.06_38c56668.jpg",
+            "image_mobile": "shopify://shop_images/WhatsApp_Image_2025-05-05_at_11.22.06_38c56668.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "shopify://collections/shop",
             "open_link": "_blank",
             "subtext": "ONLINE EXCLUSIVE",
-            "title": "Oversized Shirt",
+            "title": "Combo Saree's",
             "content": "",
             "btn_content": "SHOP THE LOOK",
             "button_type": "link"
@@ -249,11 +251,13 @@
           "settings": {
             "banner_width": "4",
             "banner_type": "image",
+            "image": "shopify://shop_images/WhatsApp_Image_2025-05-05_at_11.22.06_f8096fd6.jpg",
+            "image_mobile": "shopify://shop_images/WhatsApp_Image_2025-05-05_at_11.22.06_f8096fd6.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "shopify://collections/handbag",
             "open_link": "_blank",
             "subtext": "BEST-SELLERS",
-            "title": "Unique SS’23",
+            "title": "Cotton Saree's",
             "content": "",
             "btn_content": "SHOP THE LOOK",
             "button_type": "link"
@@ -264,11 +268,13 @@
           "settings": {
             "banner_width": "4",
             "banner_type": "image",
+            "image": "shopify://shop_images/WhatsApp_Image_2025-05-05_at_11.22.06_10f7ec4f.jpg",
+            "image_mobile": "shopify://shop_images/WhatsApp_Image_2025-05-05_at_11.22.06_10f7ec4f.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "shopify://collections/top-t-shirt",
             "open_link": "_blank",
             "subtext": "LIMITED EDITION",
-            "title": "Autumn Trending",
+            "title": "Silk Saree's",
             "content": "",
             "btn_content": "SHOP THE LOOK",
             "button_type": "link"
