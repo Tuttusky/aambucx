@@ -332,8 +332,8 @@
           "81fceee0-ca53-44a4-89ac-51ed3f3907eb": {
             "type": "menu_item",
             "settings": {
-              "title": "Shop All",
-              "url": "shopify://collections/shop-all",
+              "title": "WOMEN",
+              "url": "shopify://collections/women",
               "open_link": false,
               "label": "label1",
               "icon_font": "",
