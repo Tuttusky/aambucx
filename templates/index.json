@@ -9,25 +9,30 @@
  */
 {
   "sections": {
-    "custom_liquid_gWGeap": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.name",
-      "settings": {
-        "heading_logo_svg": "",
-        "heading": "",
-        "description": "",
-        "text_alignment": "text-center",
-        "container": "container",
-        "color_scheme": "",
-        "content_liquid": "<!-- Gender Selection Popup -->\n<style>\n  /* Popup overlay */\n  #gender-popup-overlay {\n    position: fixed;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    background: rgba(0,0,0,0.6);\n    display: none;\n    align-items: center;\n    justify-content: center;\n    z-index: 9999;\n  }\n  /* Popup container */\n  #gender-popup {\n    background: white;\n    border-radius: 12px;\n    max-width: 320px;\n    width: 90%;\n    padding: 24px;\n    text-align: center;\n    font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen,\n      Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif;\n    box-shadow: 0 8px 24px rgba(0,0,0,0.15);\n  }\n  #gender-popup h2 {\n    font-size: 1.5rem;\n    margin-bottom: 1rem;\n    color: #333;\n  }\n  #gender-popup p {\n    font-size: 1rem;\n    color: #555;\n    margin-bottom: 1.5rem;\n  }\n  #gender-popup .btn-group {\n    display: flex;\n    justify-content: center;\n    gap: 16px;\n  }\n  #gender-popup button {\n    padding: 0.75rem 1.5rem;\n    border: none;\n    border-radius: 6px;\n    font-weight: 600;\n    font-size: 1rem;\n    cursor: pointer;\n    transition: background-color 0.3s ease;\n    min-width: 100px;\n  }\n  #gender-popup button#btn-men {\n    background-color: #007bff;\n    color: white;\n  }\n  #gender-popup button#btn-men:hover {\n    background-color: #0056b3;\n  }\n  #gender-popup button#btn-women {\n    background-color: #e83e8c;\n    color: white;\n  }\n  #gender-popup button#btn-women:hover {\n    background-color: #b2255f;\n  }\n  /* Responsive: ensure popup fits well on small mobile screens */\n  @media (max-width: 400px) {\n    #gender-popup {\n      padding: 20px 16px;\n    }\n    #gender-popup h2 {\n      font-size: 1.3rem;\n    }\n    #gender-popup button {\n      min-width: 80px;\n      font-size: 0.9rem;\n      padding: 0.6rem 1rem;\n    }\n  }\n</style>\n\n<div id=\"gender-popup-overlay\" role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"gender-popup-title\">\n  <div id=\"gender-popup\">\n    <h2 id=\"gender-popup-title\">Welcome!</h2>\n    <p>Are you shopping for Men or Women?</p>\n    <div class=\"btn-group\">\n      <button id=\"btn-men\" type=\"button\" aria-label=\"Shopping for Men\">Men</button>\n      <button id=\"btn-women\" type=\"button\" aria-label=\"Shopping for Women\">Women</button>\n    </div>\n  </div>\n</div>\n\n<script>\n  (function() {\n    // Check if selection already stored\n    var genderKey = 'shop_gender_selection';\n    var selection = localStorage.getItem(genderKey);\n    var overlay = document.getElementById('gender-popup-overlay');\n    var btnMen = document.getElementById('btn-men');\n    var btnWomen = document.getElementById('btn-women');\n\n    function hidePopup() {\n      overlay.style.display = 'none';\n    }\n    function showPopup() {\n      overlay.style.display = 'flex';\n    }\n    function storeSelection(value) {\n      localStorage.setItem(genderKey, value);\n      hidePopup();\n      // Optionally, you can trigger a custom event to allow theme to react to selection\n      var event = new CustomEvent('genderSelectionMade', { detail: value });\n      window.dispatchEvent(event);\n    }\n\n    // Show popup only if not selected before\n    if (!selection) {\n      showPopup();\n    }\n\n    // Button click handlers\n    btnMen.addEventListener('click', function() {\n      storeSelection('men');\n    });\n    btnWomen.addEventListener('click', function() {\n      storeSelection('women');\n    });\n\n    // Optional: close popup if user clicks outside the modal\n    overlay.addEventListener('click', function(e) {\n      if (e.target === overlay) {\n        // Do nothing or you can hide popup if you want on outside click\n        // hidePopup();\n      }\n    });\n  })();\n</script>",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "reset_spacing": false
-      }
-    },
     "0c521c75-5d82-4dd6-aecc-f519d8907411": {
       "type": "slideshow",
       "blocks": {
+        "slider_item_UyWxaK": {
+          "type": "slider_item",
+          "settings": {
+            "content_box": "content_in_container",
+            "content_custom_width": true,
+            "content_width": 50,
+            "content_background_color": "",
+            "content_opacity": 100,
+            "horizontal_position": "left_position",
+            "vertical_position": "middle_position",
+            "slider_effect": "effect_fadeindown",
+            "text_alignment": "center",
+            "text_alignment_on_mobile": "center",
+            "subheading": "Subheading",
+            "title": "Heading",
+            "description": "<p>Description</p>",
+            "image_link": "",
+            "button_text": "Shop now",
+            "button_type": "primary"
+          }
+        },
         "4d89f9ff-8153-4b4a-a089-ccb19f702450": {
           "type": "slider_item",
           "settings": {
@@ -93,6 +98,7 @@
         }
       },
       "block_order": [
+        "slider_item_UyWxaK",
         "4d89f9ff-8153-4b4a-a089-ccb19f702450",
         "template--16567751082231__0c521c75-5d82-4dd6-aecc-f519d8907411-1666406556d8612fa9-0",
         "1ab55a7c-dc50-4b8b-91fb-925f12f5ea7b"
@@ -591,7 +597,6 @@
     }
   },
   "order": [
-    "custom_liquid_gWGeap",
     "0c521c75-5d82-4dd6-aecc-f519d8907411",
     "d22b349b-1e5c-4e9d-86c3-1f962770d193",
     "c6efc7af-e102-44d6-b23f-b3df7fd84aa6",
