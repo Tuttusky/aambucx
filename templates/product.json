@@ -69,6 +69,7 @@
         },
         "custom_liquid_GhCJPG": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "content": "{% comment %}\nOrder on WhatsApp button\n{% endcomment %}\n<a href=\"https://api.whatsapp.com/send?phone=917736953947&text=Hi,%20I%20want%20to%20order%20this%20product:%20{{ product.title }}%20%20{{ shop.url }}%2Fproducts%2F{{ product.handle }}\" style=\"text-decoration:none;\">\n  <div style=\"margin-bottom:10px; padding:9px; text-align:center; background-color:#1EA651; height:44px; color:white; border-radius:8px;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0586/7746/1052/files/whatsapp-icon.avif?v=1699462378\" width=\"25px\" style=\"vertical-align:middle;\">\n    Order On <span style=\"font-weight: bold;\">WhatsApp</span>\n  </div>\n</a>"
           }
@@ -86,12 +87,14 @@
         },
         "4c574cf3-57bd-46ba-866c-1c9ffa41769f": {
           "type": "custom_text",
+          "disabled": true,
           "settings": {
             "content": "<p><strong>Add your personalization</strong></p><p>Add your name, note or upload your customized idea image to personalise your item. Custom items cannot be returned or exchanged.</p><p></p><p></p>"
           }
         },
         "e5cf937e-e30a-4b9a-93c1-f48c229054f3": {
           "type": "product_custom_field",
+          "disabled": true,
           "settings": {
             "field_type": "text",
             "field_name": "Customize note"
@@ -245,6 +248,7 @@
       "block_order": [
         "text_dkHiPp"
       ],
+      "disabled": true,
       "settings": {
         "colorBackground": "#edad16",
         "colorText": "#ffffff",
