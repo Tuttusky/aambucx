@@ -9,6 +9,15 @@
  */
 {
   "sections": {
+    "whatsapp_RwpttC": {
+      "type": "Whatsapp",
+      "name": "Tuzz - Whatsapp Button",
+      "settings": {
+        "show_whatsapp": true,
+        "whatsapp_number": "",
+        "whatsapp_msg": ""
+      }
+    },
     "0c521c75-5d82-4dd6-aecc-f519d8907411": {
       "type": "slideshow",
       "blocks": {
@@ -597,6 +606,7 @@
     }
   },
   "order": [
+    "whatsapp_RwpttC",
     "0c521c75-5d82-4dd6-aecc-f519d8907411",
     "d22b349b-1e5c-4e9d-86c3-1f962770d193",
     "c6efc7af-e102-44d6-b23f-b3df7fd84aa6",
