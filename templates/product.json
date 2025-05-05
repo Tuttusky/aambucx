@@ -193,7 +193,7 @@
         "5ff6a4f5-c591-4a3f-bb68-b1efa1c91ab5": {
           "type": "description",
           "settings": {
-            "title": "Description"
+            "title": "Description{{ product.title }}"
           }
         },
         "de7d437d-d088-49b0-9426-0e78b2a44fd7": {
@@ -210,7 +210,7 @@
           "settings": {
             "title": "Return Policies",
             "tab_content": "content",
-            "content": "<p>7 days </p>",
+            "content": "<h1>Refund policy</h1><p>You are eligible for a Replacement/ Refund only if you receive manufacturing defect product. The products should be in original condition with original tags, folds intact and returned along with the box in which the product was delivered. Return once initiated, will be picked up within 5-7 working days. The product without above criteria will not be considered for exchange/ refund. Customer has to raise a return request within two days of order delivery. Customer has to bear the return shipping cost. Shipping charge will not be refunded against any order. Once the replacement is approved, the product will be picked up within 5-7 working days and a new product will be delivered at the time of replacement.<br/>Cancellation Policy<br/>Order once shipped from our place cannot be cancelled, but you can return it once it is delivered to you. It will be considered for Exchange. If due to unavoidable circumstances or circumstances beyond our control, your order is not processed or the product is not shipped to you within time, the order shall stand cancelled and the entire amount will be refunded to you and no liability shall be incurred by us.<br/>Customer has to return the product for us to process refund. Refund will be credited to the original payment method within 7-10 working days. Only product price will be refunded which customer paid while purchasing the product.<br/></p>",
             "page": ""
           }
         }
