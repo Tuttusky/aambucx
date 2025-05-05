@@ -166,7 +166,8 @@
           "type": "collection_item",
           "settings": {
             "title_collection": "Clothing",
-            "collection": "denim-shirt"
+            "collection": "denim-shirt",
+            "image": "shopify://shop_images/WhatsApp_Image_2025-05-05_at_11.22.06_8af16c77.jpg"
           }
         },
         "template--16652384076023__d22b349b-1e5c-4e9d-86c3-1f962770d193-167057601917b746bf-2": {
