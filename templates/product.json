@@ -70,7 +70,7 @@
         "custom_liquid_GhCJPG": {
           "type": "custom_liquid",
           "settings": {
-            "content": "{% comment %}\nOrder on WhatsApp button\n{% endcomment %}\n<a href=\"https://api.whatsapp.com/send?phone=9107012199732&text=Hi,%20I%20want%20to%20order%20this%20product:%20{{ product.title }}%20%20{{ shop.url }}%2Fproducts%2F{{ product.handle }}\" style=\"text-decoration:none;\">\n  <div style=\"margin-bottom:10px; padding:9px; text-align:center; background-color:#1EA651; height:44px; color:white; border-radius:8px;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0586/7746/1052/files/whatsapp-icon.avif?v=1699462378\" width=\"25px\" style=\"vertical-align:middle;\">\n    Order On <span style=\"font-weight: bold;\">WhatsApp</span>\n  </div>\n</a>"
+            "content": "{% comment %}\nOrder on WhatsApp button\n{% endcomment %}\n<a href=\"https://api.whatsapp.com/send?phone=917736953947&text=Hi,%20I%20want%20to%20order%20this%20product:%20{{ product.title }}%20%20{{ shop.url }}%2Fproducts%2F{{ product.handle }}\" style=\"text-decoration:none;\">\n  <div style=\"margin-bottom:10px; padding:9px; text-align:center; background-color:#1EA651; height:44px; color:white; border-radius:8px;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0586/7746/1052/files/whatsapp-icon.avif?v=1699462378\" width=\"25px\" style=\"vertical-align:middle;\">\n    Order On <span style=\"font-weight: bold;\">WhatsApp</span>\n  </div>\n</a>"
           }
         },
         "af29e4ac-1b8b-423e-afb3-744988c21a76": {
