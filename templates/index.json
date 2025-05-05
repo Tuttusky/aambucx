@@ -181,8 +181,9 @@
         "template--16652384076023__d22b349b-1e5c-4e9d-86c3-1f962770d193-167057601917b746bf-3": {
           "type": "collection_item",
           "settings": {
-            "title_collection": "Bags",
-            "collection": "handbag"
+            "title_collection": "Saree",
+            "collection": "handbag",
+            "image": "shopify://shop_images/WhatsApp_Image_2025-05-05_at_11.22.06_faec499d.jpg"
           }
         }
       },
