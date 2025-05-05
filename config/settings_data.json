@@ -686,6 +686,7 @@
           "payment_icons_width": 300,
           "show_social_links": false,
           "footer-heading-size": 18,
+          "bg_img_footer": "shopify://shop_images/pexels-maadhuri-g-627519-2933636_copy.jpg",
           "color_scheme": ""
         }
       },
