@@ -346,7 +346,7 @@
             "type": "menu_item",
             "settings": {
               "title": "Men",
-              "url": "shopify://collections/saree",
+              "url": "shopify://collections/men",
               "open_link": false,
               "label": "",
               "icon_font": "",
