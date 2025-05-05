@@ -652,6 +652,7 @@
           },
           "a6587b7e-fd90-47dd-853f-67dc3ca39d4e": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "menu": "",
               "title": "About Our Brand",
@@ -660,6 +661,7 @@
           },
           "c119ba5b-4f94-4d3b-a545-1e40894b689b": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "menu": "",
               "title": "Customer Service",
