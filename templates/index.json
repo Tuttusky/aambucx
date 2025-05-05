@@ -29,7 +29,7 @@
             "content_box": "content_in_container",
             "content_custom_width": true,
             "content_width": 50,
-            "content_background_color": "#f3876c78",
+            "content_background_color": "#f3876c00",
             "content_opacity": 100,
             "horizontal_position": "center_position",
             "vertical_position": "middle_position",
@@ -38,7 +38,7 @@
             "text_alignment_on_mobile": "center",
             "subheading": "",
             "title": "Stunning Sarees",
-            "description": "<p>Timeless sarees crafted for your grace and style.<br/><br/><br/></p>",
+            "description": "<p><br/></p>",
             "image_link": "shopify://collections/all",
             "button_text": "Shop now",
             "button_type": "primary"
