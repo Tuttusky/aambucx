@@ -192,8 +192,9 @@
       "blocks": {
         "5ff6a4f5-c591-4a3f-bb68-b1efa1c91ab5": {
           "type": "description",
+          "disabled": true,
           "settings": {
-            "title": "Description{{ product.title }}"
+            "title": "Description"
           }
         },
         "de7d437d-d088-49b0-9426-0e78b2a44fd7": {
