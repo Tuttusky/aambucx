@@ -173,8 +173,9 @@
         "template--16652384076023__d22b349b-1e5c-4e9d-86c3-1f962770d193-167057601917b746bf-2": {
           "type": "collection_item",
           "settings": {
-            "title_collection": "Sunglasses",
-            "collection": "sportswear"
+            "title_collection": "Saree",
+            "collection": "sportswear",
+            "image": "shopify://shop_images/WhatsApp_Image_2025-05-05_at_11.22.06_0835a4cb.jpg"
           }
         },
         "template--16652384076023__d22b349b-1e5c-4e9d-86c3-1f962770d193-167057601917b746bf-3": {
@@ -183,20 +184,12 @@
             "title_collection": "Bags",
             "collection": "handbag"
           }
-        },
-        "template--16652384076023__d22b349b-1e5c-4e9d-86c3-1f962770d193-167057601917b746bf-4": {
-          "type": "collection_item",
-          "settings": {
-            "title_collection": "Sneaker",
-            "collection": "shop"
-          }
         }
       },
       "block_order": [
         "template--16652384076023__d22b349b-1e5c-4e9d-86c3-1f962770d193-167057601917b746bf-0",
         "template--16652384076023__d22b349b-1e5c-4e9d-86c3-1f962770d193-167057601917b746bf-2",
-        "template--16652384076023__d22b349b-1e5c-4e9d-86c3-1f962770d193-167057601917b746bf-3",
-        "template--16652384076023__d22b349b-1e5c-4e9d-86c3-1f962770d193-167057601917b746bf-4"
+        "template--16652384076023__d22b349b-1e5c-4e9d-86c3-1f962770d193-167057601917b746bf-3"
       ],
       "custom_css": [],
       "settings": {
