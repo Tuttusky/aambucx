@@ -366,7 +366,7 @@
           "m_animation": "up_to_down",
           "label1": "Hot",
           "color_hot": "#ffffff",
-          "color_bg_hot": "#d0473e",
+          "color_bg_hot": "#da1919",
           "label2": "New",
           "color_new": "#ffffff",
           "color_bg_new": "#516cf4",
