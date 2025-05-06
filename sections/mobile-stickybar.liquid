@@ -132,6 +132,27 @@
             </div>
           </li>
         {%- endif -%}
+
+<style>
+  .img{
+	position:fixed;
+	width:40px;
+	height:40px;
+	top:100px;
+	right:10px;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+                    
         {%- if show_cart and settings.hidden_button_add_to_cart == false -%}
           <li>
 
@@ -152,6 +173,7 @@
                   </svg>
                   <span class="quick-menu-mb" >Offer</span>
                 </a>
+                
               </div>
             </div>
           </li>
