@@ -133,6 +133,11 @@
           </li>
         {%- endif -%}
 
+
+
+                    
+        {%- if show_cart and settings.hidden_button_add_to_cart == false -%}
+
 <style>
   .img{
 	position:fixed;
@@ -151,13 +156,9 @@
   
   
 }
-
                     
-        {%- if show_cart and settings.hidden_button_add_to_cart == false -%}
           <li>
 
-
- 
             <div class="bls__header_minicart">
               <div class="header_minicart">
                 <a href="https://aambucx.myshopify.com/pages/offer" class="{% if template != 'offer' %}{% endif %} bls_tooltip">
