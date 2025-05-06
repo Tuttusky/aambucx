@@ -9,6 +9,47 @@
  */
 {
   "sections": {
+    "tuzz_menu_iHetD3": {
+      "type": "Tuzz-Menu",
+      "blocks": {
+        "collection_VrPdDA": {
+          "type": "collection",
+          "settings": {
+            "single_cat": "frontpage",
+            "collection_name": ""
+          }
+        },
+        "collection_fWiYYX": {
+          "type": "collection",
+          "settings": {
+            "single_cat": "saree",
+            "collection_name": ""
+          }
+        },
+        "collection_cMtqxC": {
+          "type": "collection",
+          "settings": {
+            "single_cat": "women",
+            "collection_name": ""
+          }
+        },
+        "collection_TJaxj4": {
+          "type": "collection",
+          "settings": {
+            "single_cat": "",
+            "collection_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_VrPdDA",
+        "collection_fWiYYX",
+        "collection_cMtqxC",
+        "collection_TJaxj4"
+      ],
+      "name": "insta Icon Category",
+      "settings": {}
+    },
     "whatsapp_RwpttC": {
       "type": "Whatsapp",
       "name": "Tuzz - Whatsapp Button",
@@ -29,7 +70,7 @@
             "content_box": "content_in_container_fluid",
             "content_custom_width": true,
             "content_width": 50,
-            "content_background_color": "#b3b0b081",
+            "content_background_color": "#b3b0b082",
             "content_opacity": 100,
             "horizontal_position": "center_position",
             "vertical_position": "middle_position",
@@ -432,6 +473,7 @@
     }
   },
   "order": [
+    "tuzz_menu_iHetD3",
     "whatsapp_RwpttC",
     "0c521c75-5d82-4dd6-aecc-f519d8907411",
     "d22b349b-1e5c-4e9d-86c3-1f962770d193",
