@@ -1034,14 +1034,14 @@
           "link_hover_color": "#cf0303",
           "border_color": "#ebebeb",
           "button_primary_color": "#ffffff",
-          "button_primary_background_color": "#fc5959",
+          "button_primary_background_color": "#f92626",
           "button_primary_hover_color": "#ffffff",
           "button_primary_hover_background_color": "#111111",
           "button_secondary_color": "#740101",
           "button_secondary_border_color": "#dedede",
           "button_secondary_background_color": "#9a0101",
           "button_secondary_hover_color": "#ffffff",
-          "button_secondary_hover_background_color": "#fc5959",
+          "button_secondary_hover_background_color": "#f92626",
           "button_link_color": "#111111",
           "button_link_hover_color": "#555555"
         }
