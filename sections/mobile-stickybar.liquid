@@ -134,6 +134,28 @@
         {%- endif -%}
         {%- if show_cart and settings.hidden_button_add_to_cart == false -%}
           <li>
+
+<style>
+  .Tuzz-whatsapp{
+	position:fixed;
+	width:40px;
+	height:40px;
+	top:540px;
+	right:10px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+            
             <div class="bls__header_minicart">
               <div class="header_minicart">
                 <a href="https://aambucx.myshopify.com/pages/offer" class="{% if template != 'offer' %}{% endif %} bls_tooltip">
@@ -152,6 +174,7 @@
               </div>
             </div>
           </li>
+  </style>
         {%- endif -%}
       </ul>
     </div>
