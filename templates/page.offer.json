@@ -19,6 +19,7 @@
         "slider_item_DeMX49": {
           "type": "slider_item",
           "settings": {
+            "image": "shopify://shop_images/Advertisement_banner_for_jewelry_store.jpg",
             "content_box": "content_in_container",
             "content_custom_width": true,
             "content_width": 50,
@@ -114,10 +115,68 @@
         "padding_bottom": 0,
         "reset_spacing": false
       }
+    },
+    "collection_link_zVqbK6": {
+      "type": "collection-link",
+      "blocks": {
+        "link_item_3MhxnF": {
+          "type": "link_item",
+          "settings": {
+            "title_collection": "",
+            "collection": ""
+          }
+        },
+        "link_item_CbnRXV": {
+          "type": "link_item",
+          "settings": {
+            "title_collection": "",
+            "collection": ""
+          }
+        },
+        "link_item_CHnV8j": {
+          "type": "link_item",
+          "settings": {
+            "title_collection": "",
+            "collection": ""
+          }
+        },
+        "link_item_VixFFc": {
+          "type": "link_item",
+          "settings": {
+            "title_collection": "",
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "link_item_3MhxnF",
+        "link_item_CbnRXV",
+        "link_item_CHnV8j",
+        "link_item_VixFFc"
+      ],
+      "name": "t:sections.collection-link.name",
+      "settings": {
+        "heading_logo_svg": "",
+        "heading": "",
+        "description": "<p></p>",
+        "text_alignment": "text-center",
+        "container": "container",
+        "color_scheme": "",
+        "show_count_product": false,
+        "content_width_box_link": 100,
+        "link_font_size": 16,
+        "link_font_weight": 400,
+        "collection_type": "primary",
+        "column_gap": 30,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reset_spacing": false
+      }
     }
   },
   "order": [
     "main",
-    "slideshow_6eD89t"
+    "slideshow_6eD89t",
+    "collection_link_zVqbK6"
   ]
 }
