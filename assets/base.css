@@ -1277,22 +1277,7 @@ body:not(.template-index) .page-header {
   pointer-events: initial;
 }
 
-.h-count {
-  width: 1.8rem;
-  height: 1.8rem;
-  line-height: 1;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  font-size: 10px;
-  font-weight: var(--base-font-weight);
-  position: absolute;
-  top: -6px;
-  left: 1.3rem;
-  background-color: var(--primary-color);
-  color: var(--color-white);
-}
+
 
 @media only screen and (max-width: 1024px) {
 
