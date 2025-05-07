@@ -9,6 +9,15 @@
  */
 {
   "sections": {
+    "whatsapp_RwpttC": {
+      "type": "Whatsapp",
+      "name": "Tuzz - Whatsapp Button",
+      "settings": {
+        "show_whatsapp": true,
+        "whatsapp_number": "+917736953947",
+        "whatsapp_msg": "Hi Aambucx, I’d like to know more about your collections."
+      }
+    },
     "tuzz_menu_iHetD3": {
       "type": "Tuzz-Menu",
       "blocks": {
@@ -173,15 +182,6 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "reset_spacing": false
-      }
-    },
-    "whatsapp_RwpttC": {
-      "type": "Whatsapp",
-      "name": "Tuzz - Whatsapp Button",
-      "settings": {
-        "show_whatsapp": true,
-        "whatsapp_number": "+917736953947",
-        "whatsapp_msg": "Hi Aambucx, I’d like to know more about your collections."
       }
     },
     "d22b349b-1e5c-4e9d-86c3-1f962770d193": {
@@ -473,9 +473,9 @@
     }
   },
   "order": [
+    "whatsapp_RwpttC",
     "tuzz_menu_iHetD3",
     "0c521c75-5d82-4dd6-aecc-f519d8907411",
-    "whatsapp_RwpttC",
     "d22b349b-1e5c-4e9d-86c3-1f962770d193",
     "c6efc7af-e102-44d6-b23f-b3df7fd84aa6",
     "ef37a47e-d9db-4855-ac05-e04279ad1ca7",
