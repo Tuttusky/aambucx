@@ -117,58 +117,51 @@
         "reset_spacing": false
       }
     },
-    "collection_link_zVqbK6": {
-      "type": "collection-link",
+    "collection_tab_XtBBYM": {
+      "type": "collection-tab",
       "blocks": {
-        "link_item_3MhxnF": {
-          "type": "link_item",
+        "collection_nbVmKL": {
+          "type": "collection",
           "settings": {
-            "title_collection": "",
-            "collection": ""
+            "title": "Saree",
+            "collection": "saree"
           }
         },
-        "link_item_CbnRXV": {
-          "type": "link_item",
+        "collection_iqUPyW": {
+          "type": "collection",
           "settings": {
-            "title_collection": "",
-            "collection": ""
-          }
-        },
-        "link_item_CHnV8j": {
-          "type": "link_item",
-          "settings": {
-            "title_collection": "",
-            "collection": ""
-          }
-        },
-        "link_item_VixFFc": {
-          "type": "link_item",
-          "settings": {
-            "title_collection": "",
-            "collection": ""
+            "title": "Women",
+            "collection": "women"
           }
         }
       },
       "block_order": [
-        "link_item_3MhxnF",
-        "link_item_CbnRXV",
-        "link_item_CHnV8j",
-        "link_item_VixFFc"
+        "collection_nbVmKL",
+        "collection_iqUPyW"
       ],
-      "name": "t:sections.collection-link.name",
+      "name": "t:sections.collection-tab.name",
       "settings": {
         "heading_logo_svg": "",
         "heading": "",
-        "description": "<p></p>",
+        "description": "",
         "text_alignment": "text-center",
         "container": "container",
         "color_scheme": "",
-        "show_count_product": false,
-        "content_width_box_link": 100,
-        "link_font_size": 16,
-        "link_font_weight": 400,
-        "collection_type": "primary",
+        "tab_design": "horizontal",
+        "tab_style": "tab_desgin_1",
+        "tab_type": "grid",
+        "limit_products": 8,
+        "item_desktop": 4,
         "column_gap": 30,
+        "carousel_autoplay": false,
+        "carousel_loop": false,
+        "carousel_arrows": false,
+        "carousel_pagination": "carousel_none",
+        "number_of_rows": 1,
+        "load_more_button_enable": false,
+        "button_action": "load",
+        "button_label": "Load more",
+        "button_type": "primary",
         "padding_top": 0,
         "padding_bottom": 0,
         "reset_spacing": false
@@ -178,6 +171,6 @@
   "order": [
     "main",
     "slideshow_6eD89t",
-    "collection_link_zVqbK6"
+    "collection_tab_XtBBYM"
   ]
 }
