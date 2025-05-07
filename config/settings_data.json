@@ -126,7 +126,7 @@
     "show_promotion_mobile": true,
     "promotion_code": "AAMBUCX10",
     "promotion_width": 500,
-    "promotion_banner": "shopify://shop_images/Offer_Price_What_s_app___08610040072_Semi.jpg",
+    "promotion_banner": "shopify://shop_images/Colagem_de_compras_de_moda_online___Foto_Premium.jpg",
     "promotion_title": "AAMBUCX",
     "promotion_sub_title": "<p>Special Offer</p>",
     "promotion_content": "Up to <span>10% Off</span>\nwhen using code \"[promotion_code]\"",
@@ -627,6 +627,8 @@
         "settings": {
           "enable_mobile_stickybar": true,
           "show_home": true,
+          "show_cart": true,
+          "show_products_all": true,
           "show_wishlist": true,
           "show_my_account": true
         }
