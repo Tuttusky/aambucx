@@ -19,7 +19,8 @@
         "slider_item_DeMX49": {
           "type": "slider_item",
           "settings": {
-            "image": "shopify://shop_images/Advertisement_banner_for_jewelry_store.jpg",
+            "image": "shopify://shop_images/Untitled_design.png",
+            "image_mobile": "shopify://shop_images/Untitled_design.png",
             "content_box": "content_in_container",
             "content_custom_width": true,
             "content_width": 50,
