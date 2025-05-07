@@ -689,8 +689,8 @@
           "payment_icons_width": 300,
           "show_social_links": false,
           "footer-heading-size": 18,
-          "bg_img_footer": "shopify://shop_images/pexels-maadhuri-g-627519-2933636_copy.jpg",
-          "color_scheme": ""
+          "bg_img_footer": "shopify://shop_images/XL12_Tile_Collection_-_SHOWTILE.jpg",
+          "color_scheme": "scheme-013ccfbf-beb5-42e6-bc8f-8a36ab634ca7"
         }
       },
       "marquee": {
@@ -797,10 +797,10 @@
         "settings": {
           "body_bg_color": "#f5f5f5",
           "background_gradient": "",
-          "primary_color": "#dd3327",
-          "text_color": "#555555",
+          "primary_color": "#8c1515",
+          "text_color": "#000000",
           "heading_color": "#111111",
-          "link_color": "#111111",
+          "link_color": "#04558a",
           "link_hover_color": "#555555",
           "border_color": "#ebebeb",
           "button_primary_color": "#ffffff",
@@ -866,9 +866,9 @@
         "settings": {
           "body_bg_color": "#111111",
           "background_gradient": "",
-          "primary_color": "#dd3327",
-          "text_color": "#f8ba26",
-          "heading_color": "#f8ba26",
+          "primary_color": "#000000",
+          "text_color": "#beff1e",
+          "heading_color": "#beff1e",
           "link_color": "#111111",
           "link_hover_color": "#555555",
           "border_color": "#ebebeb",
