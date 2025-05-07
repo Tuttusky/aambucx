@@ -31,9 +31,9 @@
             "slider_effect": "effect_fadeindown",
             "text_alignment": "center",
             "text_alignment_on_mobile": "center",
-            "subheading": "",
-            "title": "",
-            "description": "",
+            "subheading": "Limited Time Offer: Up to 50% Off on Selected Items!",
+            "title": "Unlock Exclusive Savings!",
+            "description": "<p><strong>Hurry! Enjoy up to 50% off on a wide range of products for a limited time. From fashion to home essentials, there's something for everyone. Shop now and grab these amazing discounts!</strong></p>",
             "image_link": "",
             "button_text": "Shop now",
             "button_type": "primary"
